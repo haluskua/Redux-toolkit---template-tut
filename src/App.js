@@ -1,6 +1,8 @@
 import React from "react";
 import { Counter } from "./features/counter/Counter";
 import "./App.css";
+import { Login } from "./components/Login";
+import Profile from "./components/Profile";
 
 function App() {
   return (
@@ -49,6 +51,10 @@ function App() {
           </a>
         </span>
       </header>
+      <section>
+        <Login />
+        <Profile />
+      </section>
     </div>
   );
 }
