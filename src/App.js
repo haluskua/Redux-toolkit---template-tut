@@ -3,6 +3,7 @@ import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import { Login } from "./components/Login";
 import Profile from "./components/Profile";
+import ChangeColor from "./components/ChangeColor";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <span>
-          <span>Learn </span>
+          <span>Learn</span>
           <a
             className="App-link"
             href="https://reactjs.org/"
@@ -54,6 +55,7 @@ function App() {
       <section>
         <Login />
         <Profile />
+        <ChangeColor />
       </section>
     </div>
   );
