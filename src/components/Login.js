@@ -23,10 +23,9 @@ export const Login = (props) => {
       </button>
       <button
         onClick={() => {
-          dispatch(logout({}));
+          dispatch(logout());
         }}
       >
-        {" "}
         Logout
       </button>
     </div>
